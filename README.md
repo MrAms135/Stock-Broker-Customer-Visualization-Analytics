@@ -7,8 +7,6 @@ This repository features a comprehensive **Stock Broker Customer Visualization**
 ## 🏗️ Project Architecture
 The project follows a structured data pipeline, ensuring that every visual insight is backed by logical financial data engineering.
 
-
-
 * **Data Generation (Python)**: Custom scripts created to maintain relational integrity across customers, trades, and holdings.
 * **Relational Storage**: Structured data stored in optimized CSV files for high-performance BI modeling.
 * **BI Layer (Power BI)**: An interactive multi-page dashboard designed for Executive and Branch-level decision-making.
@@ -51,12 +49,12 @@ Unlike a standard static dataset, this project includes a dynamic engine that re
 The Power BI suite provides a 360-degree view of the brokerage’s health:
 
 ### 1. Executive Portfolio Overview
-* [cite_start]**Total AUM**: Currently managing **1.33 Billion** in assets. [cite: 9]
-* [cite_start]**Regional Dominance**: Thiruvananthapuram leads with **35.94%** of total AUM, [cite: 19] [cite_start]followed by Kochi at **33.87%**. [cite: 29]
-* [cite_start]**Product Performance**: Detailed tracking across Mutual Funds ($31.8M$) [cite: 33] [cite_start]and Equity ($29.4M$). [cite: 37]
+* **Total AUM**: Currently managing **1.33 Billion** in assets.
+* **Regional Dominance**: Thiruvananthapuram leads with **35.94%** of total AUM, followed by Kochi at **33.87%**.
+* **Product Performance**: Detailed tracking across Mutual Funds ($31.8M$) and Equity ($29.4M$).
 
 ### 2. Customer Health & Priority Matrix
-[cite_start]The dashboard features a **"Top Priorities"** matrix to help branch managers focus on high-impact clients: [cite: 86]
+The dashboard features a **"Top Priorities"** matrix to help branch managers focus on high-impact clients:
 
 | customer_id | customer_name | RFM Score | Status |
 | :--- | :--- | :--- | :--- |
@@ -67,10 +65,10 @@ The Power BI suite provides a 360-degree view of the brokerage’s health:
 ---
 
 ## 📁 Repository Structure
-* [cite_start]**`Customer.csv`**: Investor demographics and geographic data. [cite: 2]
-* [cite_start]**`Transactions.csv`**: Historical trade logs with calculated brokerage. [cite: 1]
-* [cite_start]**`Holdings.csv`**: Real-time portfolio snapshots across asset classes. [cite: 6]
-* [cite_start]**`Products.csv`**: Product category master list (Equity, MF, PMS). [cite: 5]
+* **`Customer.csv`**: Investor demographics and geographic data.
+* **`Transactions.csv`**: Historical trade logs with calculated brokerage.
+* **`Holdings.csv`**: Real-time portfolio snapshots across asset classes.
+* **`Products.csv`**: Product category master list (Equity, Mutual Funds, PMS).
 * **`powerbi.pdf`**: The full multi-page visual report export. 
 * **`powerbi.pbix`**: Interactive visualization in Power BI format.
 
