@@ -39,10 +39,15 @@ The Power BI suite provides a 360-degree view of the brokerage’s health:
 📁 Repository Structure
 
 Customer.csv: Investor demographics and geographic data. 
-Transactions.csv: Historical trade logs with calculated brokerage. 
+
+Transactions.csv: Historical trade logs with calculated brokerage.
+
 Holdings.csv: Real-time portfolio snapshots across asset classes. 
+
 Products.csv: Product category master list (Equity, MF, PMS). 
+
 powerbi.pdf: The full multi-page visual report export. 
+
 powerbi.pbix: Visualization in powerBI format
 
 🚀 Future Roadmap
